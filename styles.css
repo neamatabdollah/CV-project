@@ -112,10 +112,9 @@ hr{
     /* grid-template-rows: 0.5fr 0.5fr 0.5fr 1fr ; */
     gap: 20px;
     grid-template-areas: 
-       "edu exp"
-       "skills exp"
-       "skills cert"
-       "proj proj"
+       "edu skills"
+       "cert skills"
+       "proj exp"
     ;
   }
   .edu {
